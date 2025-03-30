@@ -17,7 +17,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|                   |------+------+------+------+------+------|
  * | Alt1 |  A   |  E   |  O   |   I  |   U  |-------.   ,-------|  H   |  R   |  S   |  N   |  T   | Alt1 |
  * |------+------+------+------+------+------|   No  |   |  Yes  |------+------+------+------+------+------|
- * |  ,   |  F   |  '   |  Q   |   Y  |   W  |-------|   |-------|  Z   |  J   |  X   | Eng  |  K   |   .  |
+ * |  ,   |  F   |  '   |  Q   |   Y  |   W  |-------|   |-------|  X   |  Z   |  J   | Eng  |  K   |   .  |
  * `-----------------------------------------/       /    \      \-----------------------------------------'
  *                   | Lock | Sys  | Ctl  | / VSpc  /      \ HSpc \  |  Ctl |  Sys | LyrR |
  *                   |      |      |      |/       /        \      \ |      |      |      |
@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_H,            KC_R, KC_S, KC_N, KC_T, RSFT_T(KC_CAPS),
 
   KC_8,    KC_F, KC_0, KC_Q, KC_Y, KC_W, KC_ESC,
-  KC_PENT, KC_Z, KC_J, KC_X, KC_1, KC_K, KC_9,
+  KC_PENT, KC_X, KC_Z, KC_J, KC_1, KC_K, KC_9,
 
   QK_LOCK, KC_LGUI, KC_LCTL, KC_ENT,
   KC_SPC,  KC_RCTL, KC_RGUI, TO(_QWERTY)
